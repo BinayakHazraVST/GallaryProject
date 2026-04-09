@@ -15,7 +15,27 @@ h1{
   text-align: center;
    color:white;
    margin:10px;
+   text-decoration: underline;
 }
+
+.setLimitForm{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top:20px;
+  gap:4px;
+}
+
+.setLimitForm input{
+  font-size: 20px;
+  padding:8px;
+}
+
+.setLimitForm div{
+  display: flex;
+  gap:4px;
+}
+
 
 .gallaryInterface{
   position: relative;
@@ -31,7 +51,7 @@ h1{
 }
 
 .gallaryElement{
-  width:245px;
+  width:240px;
   height:160px;
   border:4px solid yellowgreen;
   border-radius: 10px;
